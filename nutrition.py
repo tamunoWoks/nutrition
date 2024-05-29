@@ -5,3 +5,8 @@ fruits = {
     'Lime':'20', 'Orange':'80', 'Peach':'60', 'Pear':'100', 'Pineapple':'50',
     'Plums':'70', 'Strawberries':'50', 'Sweet Cherries':'100', 'Tangerine':'50'
 }
+
+for fruit in fruits:
+    if fruit == item:
+        print(f'Calories: {fruits[item]}')
+    continue
